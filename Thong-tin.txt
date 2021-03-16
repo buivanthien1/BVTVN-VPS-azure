@@ -1,7 +1,11 @@
 === Info RDP===
 1. IP: 0.tcp.ap.ngrok.io:(port)
 2. User: administrator
-3. Pass: 22022007
+3. Pass: BVTVN-ThienBui
 
 === Website ===
-bvtvn.tk
+https://bvtvn.tk/
+=== YouTube ===
+https://www.youtube.com/channel/UCwlWoyK2OpzXcV3ku-iPAHw
+===============
+By Thien Bui
