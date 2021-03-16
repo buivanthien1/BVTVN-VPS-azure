@@ -9,8 +9,7 @@ echo Để thay đổi vùng VPS khác, hãy Tạo tổ chức mới (Vị trí 
 echo Khu vực có sẵn: West Europe, Central US, East Asia, Brazil South, Canada Central, Autralia East, UK South, South India
 echo Hoàn tất! Kết nối VPS của bạn bằng RDP. Khi RDP hết hạn VPS sẽ tắt, hãy chạy lại các công việc để nhận RDP mới.
 net user installer /delete
-curl -o "C:\Users\Public\Desktop\Thong-tin.txt" https://raw.githubusercontent.com/eweiss2021/Azure_RDP/main/Readme-create-by-TinHocThucHanh.txt > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\SetupBrowser.zip" https://raw.githubusercontent.com/eweiss2021/Azure_RDP/main/SetupBrowser.zip > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Thong-tin.txt" https://raw.githubusercontent.com/buivanthien1/BVTVN-VPS-azure/main/Thong-tin.txt > out.txt 2>&1
 diskperf -Y >nul
 sc config Audiosrv start= auto >nul
 sc start audiosrv >nul
