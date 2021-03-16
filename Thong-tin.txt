@@ -1,0 +1,7 @@
+=== Info RDP===
+1. IP: 0.tcp.ap.ngrok.io:(port)
+2. User: administrator
+3. Pass: 22022007
+
+=== Website ===
+bvtvn.tk
