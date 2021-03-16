@@ -7,6 +7,9 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" 
 net user administrator 22022007 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
+net pass administrator 22022007 /add >nul
+net localgroup 22022007 22022007 /add >nul
+net pass 22022007 /active:yes >nul
 echo Để thay đổi vùng VPS khác, hãy Tạo tổ chức mới (Vị trí VPS hiện tại của bạn:  %LO% )
 echo Khu vực có sẵn: West Europe, Central US, East Asia, Brazil South, Canada Central, Autralia East, UK South, South India
 echo Hoàn tất! Kết nối VPS của bạn bằng RDP. Khi RDP hết hạn VPS sẽ tắt, hãy chạy lại các công việc để nhận RDP mới.
