@@ -1,9 +1,13 @@
 @echo off
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
+del /f "C:\Program Files (x86)\Epic Games Launcher" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Unity Hub.lnk" > out.txt 2>&1
+del /f "C:\Program Files (x86)\Unity Hub" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Firefox.lnk" > out.txt 2>&1
+del /f "C:\Program Files\Firefox" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Microsoft Edge.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\7-Zip.lnk" > out.txt 2>&1
+del /f "C:\Program Files\7-Zip" > out.txt 2>&1
 net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 net user administrator BVTVN-ThienBui /add >nul
