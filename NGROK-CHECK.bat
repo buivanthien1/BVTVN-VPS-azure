@@ -25,4 +25,5 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo User: administrator
 echo Pass: BVTVN-ThienBui
 echo YouTube: https://www.youtube.com/channel/UCwlWoyK2OpzXcV3ku-iPAHw
+echo By Thien Bui
 ping -n 999999 10.10.0.10 >nul
