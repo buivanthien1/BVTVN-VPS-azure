@@ -16,7 +16,7 @@ By Thien Bui
 ===========================================================
 1.0
 ========
-1.1(beta)
+1.1
 -Đã xóa bớt 1 số ứng dụng ko cần thiết
 -Đã sữa lại các bản dịch chính xác hơn
 -Đã thêm Unikey
