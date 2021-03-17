@@ -14,8 +14,8 @@ echo Khu vực có sẵn: West Europe, Central US, East Asia, Brazil South, Cana
 echo Hoàn tất! Kết nối VPS của bạn bằng RDP. Khi RDP hết hạn VPS sẽ tắt, hãy chạy lại VPS để nhận RDP mới.
 net user installer /delete
 curl -o "C:\Users\Public\Desktop\Thong-tin.txt" https://raw.githubusercontent.com/buivanthien1/BVTVN-VPS-azure/main/Thong-tin.txt > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Phien-Ban.txt" https://raw.githubusercontent.com/buivanthien1/BVTVN-VPS-azure/main/Phien-ban.txt > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Unikey.exe" https://gitlab.com/bvthien1/file/-/raw/master/UniKeyNT.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\TLAUNCHER.exe" https://dl2.tlauncher.org/f.php?f=files%2FTLauncher-2.75-Installer-0.6.9.v2.exe > out.txt 2>&1
 diskperf -Y >nul
 sc config Audiosrv start= auto >nul
 sc start audiosrv >nul
