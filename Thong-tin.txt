@@ -16,4 +16,5 @@ By Thien Bui
 -Đã sữa lại các bản dịch chính xác hơn
 -Đã thêm Unikey vào
 -Đã thay hình nền
+-Đã thêm CPUZ
 ===========================================================
