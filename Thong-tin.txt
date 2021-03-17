@@ -16,4 +16,5 @@ By Thien Bui
 -Đã sữa lại các bản dịch chính xác hơn
 -Đã thêm Unikey vào
 -Đã thêm CPUZ
+-Đã thêm ngrok mới nhất để tăng tính onor định
 ===========================================================
