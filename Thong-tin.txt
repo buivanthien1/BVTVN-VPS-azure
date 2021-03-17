@@ -23,4 +23,5 @@ By Thien Bui
 -Đã thêm CPUZ
 -Đã thêm ngrok mới nhất để tăng tính ổn định cho VPS
 -VPS đã được tăng tính ổn định cho băng thông hơn 2 phiên bản cũ (1.a;1.b)
+-Có thêm nhiều vị trí cho VPS (giảm độ trễ cho VPS
 ===========================================================
