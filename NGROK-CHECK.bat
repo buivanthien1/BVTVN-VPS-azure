@@ -14,7 +14,7 @@ echo Khu vực có sẵn: West Europe, Central US, East Asia, Brazil South, Cana
 echo Hoàn tất! Kết nối VPS của bạn bằng RDP. Khi RDP hết hạn VPS sẽ tắt, hãy chạy lại VPS để nhận RDP mới.
 net user installer /delete
 curl -o "C:\Users\Public\Desktop\Thong-tin.txt" https://raw.githubusercontent.com/buivanthien1/BVTVN-VPS-azure/main/Thong-tin.txt > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Thong-tin.txt" https://raw.githubusercontent.com/buivanthien1/BVTVN-VPS-azure/main/Phien%20ban.txt > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Phien-Ban.txt" https://raw.githubusercontent.com/buivanthien1/BVTVN-VPS-azure/main/Phien%20ban.txt > out.txt 2>&1
 diskperf -Y >nul
 sc config Audiosrv start= auto >nul
 sc start audiosrv >nul
