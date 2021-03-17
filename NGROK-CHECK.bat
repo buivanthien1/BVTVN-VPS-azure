@@ -5,8 +5,8 @@ del /f "C:\Users\Public\Desktop\Firefox.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\7-Zip.lnk" > out.txt 2>&1
 net config server /srvcomment:"BVTVN.TK" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\hinh-nen.png" https://gitlab.com/bvthien1/file/-/raw/master/hinh-nen.png > out.txt 2>&1
-reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d C:\Users\Public\Desktop\hinh-nen.png /f > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\hinh-nen.png" https://gitlab.com/bvthien1/file/-/raw/master/hinh-nen.bmp > out.txt 2>&1
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d C:\Users\Public\Desktop\hinh-nen.bmp /f > out.txt 2>&1
 net user administrator BVTVN-ThienBui /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
