@@ -8,3 +8,11 @@ https://bvtvn.tk/
 https://www.youtube.com/channel/UCwlWoyK2OpzXcV3ku-iPAHw
 ===============
 By Thien Bui
+===========================================================
+1.0
+========
+1.1(beta)
+-Đã xóa bớt 1 số ứng dụng ko cần thiết
+-Đã sữa lại các phâng dịch sai
+-Đã thêm Unikey vào
+===========================================================
