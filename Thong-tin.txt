@@ -21,5 +21,6 @@ By Thien Bui
 -Đã sữa lại các bản dịch chính xác hơn
 -Đã thêm Unikey vào
 -Đã thêm CPUZ
--Đã thêm ngrok mới nhất để tăng tính onor định
+-Đã thêm ngrok mới nhất để tăng tính ổn định cho VPS
+-VPS đã được tăng tính ổn định cho băng thông hơn 2 phiển bản cũ (1.a;1.b)
 ===========================================================
