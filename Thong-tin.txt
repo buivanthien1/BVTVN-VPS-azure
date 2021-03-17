@@ -1,4 +1,4 @@
-=== Info RDP===
+=== THÔNG TIN DRP ===
 1. IP: 0.tcp.ap.ngrok.io:(port)
 2. User: administrator
 3. Pass: BVTVN-ThienBui
