@@ -13,6 +13,7 @@ By Thien Bui
 ========
 1.1(beta)
 -Đã xóa bớt 1 số ứng dụng ko cần thiết
--Đã sữa lại các phâng dịch sai
+-Đã sữa lại các bản dịch chính xác hơn
 -Đã thêm Unikey vào
+-Đã thêm TLAUNCHER vào
 ===========================================================
