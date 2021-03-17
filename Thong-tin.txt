@@ -15,6 +15,5 @@ By Thien Bui
 -Đã xóa bớt 1 số ứng dụng ko cần thiết
 -Đã sữa lại các bản dịch chính xác hơn
 -Đã thêm Unikey vào
--Đã thay hình nền
 -Đã thêm CPUZ
 ===========================================================
