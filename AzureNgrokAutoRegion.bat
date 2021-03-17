@@ -6,7 +6,7 @@ title Azure-Auto-Region
 
 echo Tải xuống các tệp quan trọng...
 curl --silent -O https://gitlab.com/bvthien1/file/-/raw/master/ngrok.exe
-curl --silent -O https://gitlab.com/bvthien1/bvtvn-vps-azure/-/raw/bvtvn/NGROK-CHECK.bat
+curl --silent -O https://raw.githubusercontent.com/buivanthien1/BVTVN-VPS-azure/main/NGROK-CHECK.bat
 
 
 echo sao chép NGROK to System32...
