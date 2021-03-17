@@ -20,8 +20,8 @@ sc start audiosrv >nul
 ICACLS C:\Windows\Temp /grant administrator:F >nul
 ICACLS C:\Windows\installer /grant administrator:F >nul
 echo VPS đã đc tạo! Kết nối VPS của bạn bằng Remote Desktop (RDP).
-echo IP:
-tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "Không thể tải đường NGROK tunnel, vui lòng dán NGROK TOKEN mới vào YML. Kiểm tra tunnel tại đây: https://dashboard.ngrok.com/status/tunnels " && exit
+echo IP VPS:
+tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "Không thể tải NGROK tunnel, vui lòng dán NGROK_AUTH_TOKEN vào. Kiểm tra tunnel tại đây: https://dashboard.ngrok.com/status/tunnels " && exit
 echo User: administrator
 echo Pass: BVTVN-ThienBui
 echo YouTube: https://www.youtube.com/channel/UCwlWoyK2OpzXcV3ku-iPAHw
