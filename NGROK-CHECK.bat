@@ -2,16 +2,16 @@
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Unity Hub.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Firefox.lnk" > out.txt 2>&1
-del /f "C:\Users\Public\Desktop\Microsoft Edge.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\7-Zip.lnk" > out.txt 2>&1
-net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
+net config server /srvcomment:"BVTVN.TK" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 net user administrator BVTVN-ThienBui /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
-echo Để thay đổi vùng VPS khác, hãy Tạo tổ chức mới (Vị trí VPS hiện tại của bạn: %LO% )
+echo Vị trí VPS hiện tại của bạn: %LO%
+echo Để thay đổi vùng VPS khác, hãy Tạo mới VPS của bạn
 echo Khu vực có sẵn: West Europe, Central US, East Asia, Brazil South, Canada Central, Autralia East, UK South, South India
-echo Hoàn tất! Kết nối VPS của bạn bằng RDP. Khi RDP hết hạn VPS sẽ tắt, hãy chạy lại các công việc để nhận RDP mới.
+echo Hoàn tất! Kết nối VPS của bạn bằng RDP. Khi RDP hết hạn VPS sẽ tắt, hãy chạy lại VPS để nhận RDP mới.
 net user installer /delete
 curl -o "C:\Users\Public\Desktop\Thong-tin.txt" https://raw.githubusercontent.com/buivanthien1/BVTVN-VPS-azure/main/Thong-tin.txt > out.txt 2>&1
 diskperf -Y >nul
