@@ -29,5 +29,5 @@ echo Pass: BVTVN-ThienBui
 echo YouTube: https://www.youtube.com/channel/UCwlWoyK2OpzXcV3ku-iPAHw
 echo By Thien Bui
 echo Phiển Bản:
-echo 1.1(beta)
+echo 1.1
 ping -n 999999 10.10.0.10 >nul
