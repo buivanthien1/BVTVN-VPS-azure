@@ -4,7 +4,7 @@ del /f "C:\Users\Public\Desktop\Unity Hub.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Firefox.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\7-Zip.lnk" > out.txt 2>&1
 curl -o "C:\Users\Public\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets\hinh-nen.jpg" https://raw.githubusercontent.com/buivanthien1/BVTVN-VPS-azure/main/hinh-nen.jpg > out.txt 2>&1
-lsr.exe "C:\Users\Public\Desktop\VnReview\Lock Screen Image\hinh-nen.jpg
+lsr.exe "C:\Users\Public\Desktop\VnReview\Lock Screen Image\hinh-nen.jpg > out.txt 2>&1
 net config server /srvcomment:"BVTVN.TK" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 net user administrator BVTVN-ThienBui /add >nul
