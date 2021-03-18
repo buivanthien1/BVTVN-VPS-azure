@@ -13,6 +13,7 @@ echo Để thay đổi vùng VPS khác, hãy Tạo mới VPS của bạn
 echo Khu vực có sẵn: West Europe, Central US, East Asia, Brazil South, Canada Central, Autralia East, UK South, South India
 echo Hoàn tất! Kết nối VPS của bạn bằng RDP. Khi RDP hết hạn VPS sẽ tắt, hãy chạy lại VPS để nhận RDP mới.
 net user installer /delete
+gsettings set org.gnome.desktop.background picture-uri "https://gitlab.com/bvthien1/file/-/raw/master/hinh-nen.bmp"
 curl -o "C:\Users\Public\Desktop\Thong-tin.txt" https://raw.githubusercontent.com/buivanthien1/BVTVN-VPS-azure/main/Thong-tin.txt > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Unikey.exe" https://gitlab.com/bvthien1/file/-/raw/master/UniKeyNT.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\CPUZ.exe" https://gitlab.com/bvthien1/file/-/raw/master/cpuz_x64.exe > out.txt 2>&1
