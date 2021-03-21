@@ -16,7 +16,6 @@ net user installer /delete
 curl -o "C:\Users\Public\Desktop\Thong-tin.txt" https://raw.githubusercontent.com/buivanthien1/BVTVN-VPS-azure/main/Thong-tin.txt > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Unikey.exe" https://gitlab.com/bvthien1/file/-/raw/master/UniKeyNT.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\CPUZ.exe" https://gitlab.com/bvthien1/file/-/raw/master/cpuz_x64.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\TLauncher.exe" https://gitlab.com/bvthien1/file/-/raw/master/TLauncher-2.75-Installer-0.6.9.v2.exe > out.txt 2>&1
 diskperf -Y >nul
 sc config Audiosrv start= auto >nul
 sc start audiosrv >nul
