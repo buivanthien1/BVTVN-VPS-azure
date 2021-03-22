@@ -26,3 +26,4 @@ link: https://github.com/buivanthien1/WINODWS-SV-DRP
 -VPS đã được tăng tính ổn định cho băng thông hơn 2 phiên bản cũ (1.a;1.b)
 -Có thêm nhiều vị trí cho VPS (giảm độ trễ cho VPS)
 ===========================================================
+=========================.END.=============================
