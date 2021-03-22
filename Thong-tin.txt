@@ -2,21 +2,21 @@
 1. IP: 0.tcp.ap.ngrok.io:(port)
 2. User: administrator
 3. Pass: BVTVN-ThienBui
-=== Phiên bản cũ ===
-1.a
-link: https://github.com/buivanthien1/WINDOWS-SV-CRD
-1.b
-link: https://github.com/buivanthien1/WINODWS-SV-DRP
-===========================================================
 === Website ===
 https://bvtvn.tk/
 === YouTube ===
 https://www.youtube.com/channel/UCwlWoyK2OpzXcV3ku-iPAHw
 ===============
 By Thien Bui
-===========================================================
+=================== Phiên bản cũ ========================
+1.a
+link: https://github.com/buivanthien1/WINDOWS-SV-CRD
+==========================================================
+1.b
+link: https://github.com/buivanthien1/WINODWS-SV-DRP
+==========================================================
 1.0
-========
+==========================================================
 1.1
 -Đã xóa bớt 1 số ứng dụng ko cần thiết
 -Đã sữa lại các bản dịch chính xác hơn
